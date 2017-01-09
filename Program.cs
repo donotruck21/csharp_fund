@@ -6,8 +6,12 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World");
             Console.WriteLine("And Hello Again!");
+            for(int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
